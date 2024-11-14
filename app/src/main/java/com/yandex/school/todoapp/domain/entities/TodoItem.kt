@@ -10,4 +10,5 @@ data class TodoItem(
     val createdAt: Date,
     val deadline: Date? = null,
     val modifiedAt: Date? = null,
+    val revision: Int = 0
 )
